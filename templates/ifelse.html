@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If else loop</title>
+</head>
+<body>
+    <center>
+        <h1>If else loop</h1>
+        {% if a > b %}
+        <h1>If block</h1>
+        <h1>a is max {{a}}</h1>
+        {% else %}
+        <h1>ELse block</h1>
+        <h1>b is max {{b}}</h1>
+        {% endif %}
+        <a href="{% url 'forloop' %}"><h1>Click here to go to forloop page</h1></a>
+    </center>
+</body>
+</html>
